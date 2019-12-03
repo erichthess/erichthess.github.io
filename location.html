@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
-    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="location.css">
 
 </head>
 
@@ -34,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Menu<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Meet the Team</a>
@@ -43,7 +43,7 @@
                 <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="location.html">The Location</a>
+                <a class="nav-link" href="#">The Location</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
@@ -59,13 +59,21 @@
         <!-- End Navigation Bar Code-->
         <!-- Start Body Code -->
         <div class="main">
-          <h1>Los Locos</h1>
-          <p>Feel free to check out our menu or meet the team!</p>
-          <p>
-              <button type="button" class="btn btn-lg btn-custom"><b>Menu</b></button>
-              <button type="button" class="btn btn-lg btn-custom2"><b>Meet the Team</b></button>
-          </p>
-        </div>
+          <h1>Location</h1>
+            <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ4Wdp7xlSzZQR3cm9trIp2sQ&key=AIzaSyAv13iZYH9ujYVuAzYb11eq_PbKAlQQgQk" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div>
+            <p> <h5>Address:</h5>
+                              <ul>
+                                  <li>Praça Nobrega 14 Centro</li>
+                                  <li>Ubatuba, Sao Paulo, Brazil</li>
+                                  <li>11680-000</li>
+                                  <li>+55 12 99685-2629</li>
+                              </ul>
+            </p>
+            
+        </div> 
         <!-- End Body Code -->
         <!-- Start Footer Code (HTML and CSS borrowed from: "https://tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers") -->
         <div class="content">
