@@ -20,6 +20,12 @@ body {
     font-size:3em;
 }
 
+.nav-item {
+    background-color:#dcd3af;
+    z-index:5;
+    padding:10px;
+}
+
 .fab {
     padding:10px;
     font-size:1.2em;
@@ -182,4 +188,8 @@ image {
 
 .address {
     font-size:.75em;
+}
+
+hr {
+    color:white;
 }
