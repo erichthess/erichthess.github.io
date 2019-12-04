@@ -7,6 +7,7 @@ body {
     font-style: normal;
     display:grid;
         grid-template-rows:75px 632px auto;
+    overflow:auto;
 }
 
 .navbar-custom {
@@ -20,43 +21,17 @@ body {
     font-size:3em;
 }
 
+.nav-item {
+    background-color:#dcd3af;
+    z-index:5;
+    padding:10px;
+}
+
 .fab {
-    padding: 10px;
-    font-size: 1.2em;
+    padding:10px;
+    font-size:1.2em;
 }
 
-
-h1 {
-    font-family: hightower-text, serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 4em;
-}
-
-h5 {
-    font-family: hightower-text, serif;
-    font-weight:400;
-    font-style:normal;
-    color:white;
-    font-size:3em;
-    text-align:center;
-    margin-top:20px;
-
-}
-
-.btn-custom {
-    width: 10em;
-    background-color: #404040;
-    color: white;
-}
-
-.btn-custom2 {
-    width: 10em;
-    background-color: transparent;
-    color: black;
-    border-color: white;
-}
 
 #myFooter {
     background-color: #dcd3af;
@@ -64,7 +39,7 @@ h5 {
 }
 
 #myFooter .row {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #myFooter .navbar-brand {
@@ -170,61 +145,31 @@ image {
     font-size:.75em;
 }
 
-.btn-custom:hover {
-    background-color:white;
-    color:#404040;
-}
-
-.btn-custom2:hover {
-    background-color:#404040;
-    color:white;
-}
-
-.card-columns {
-    column-count: 3;
-}
-
-.text-center {
-    color:white;
-    font-family: hightower-text, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:3em;
-}
-
-.break {
-    background-color:white;
-}
-
-.nav-item {
-    background-color:#dcd3af;
-    z-index:5;
-    padding:10px;
-}
-
-.entrees {
+.body {
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-around;
+    align-items:center;
+    overflow:auto;
 }
 
 .card {
-    margin-bottom:10px;
+    width:400px;
+    height:500px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
-hr {
-    border-width:1px;
-   background-color:white;
+.body img {
+    width:100%;
+    height:60%;
 }
 
-.card-columns {
-    column-count:3;
+.body h5 {
+    font-family: hightower-text, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2em;
 }
 
-.row {
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    flex-wrap:wrap;
 
-}
