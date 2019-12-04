@@ -182,3 +182,13 @@ image {
 .address {
     font-size:.75em;
 }
+
+.btn-custom:hover {
+    background-color:white;
+    color:#404040;
+}
+
+.btn-custom2:hover {
+    background-color:#404040;
+    color:white;
+}
