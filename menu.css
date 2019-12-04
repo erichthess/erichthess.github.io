@@ -1,27 +1,23 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
 
 body {
-    background-color: #404040;
+    background-color:#404040;
     font-family: acumin-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
-    grid-template-rows: 75px 632px auto;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    overflow: auto;
+    display:grid;
+        grid-template-rows:75px 632px auto;
 }
 
 .navbar-custom {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    background-color: #dcd3af;
+    background-color:#dcd3af;
 }
 
 .navbar-brand {
     font-family: hightower-text, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size:3em;
 }
 
 .fab {
@@ -38,7 +34,7 @@ h1 {
     font-size: 4em;
 }
 
-btn-custom {
+.btn-custom {
     width: 10em;
     background-color: #404040;
     color: white;
@@ -54,10 +50,6 @@ btn-custom {
 #myFooter {
     background-color: #dcd3af;
     color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    overflow: auto;
 }
 
 #myFooter .row {
@@ -87,7 +79,7 @@ btn-custom {
     margin-top: 30px;
 }
 
-#myFooter h2 a {
+#myFooter h2 a{
     font-size: 50px;
     text-align: center;
     color: black;
@@ -146,119 +138,23 @@ btn-custom {
 }
 
 img {
-    margin-top: 20px;
-    width: 150px;
-    height: 150px;
+    margin-top:20px;
+    width:150px;
+    height:150px;
 }
 
 image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .logo {
-    background-image: url(logo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image:url(logo.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 .address {
-    font-size: .75em;
-}
-
-/*******************Menu*****************/
-.main {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    margin: 10px
-}
-
-.menuHead {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    height: 8%;
-    margin: 10px;
-}
-
-.selection {
-    height: 60px;
-    background-color: white;
-    width: 24%;
-    font-size: 2em;
-    letter-spacing: 1px;
-    position: relative;
-    border-radius: 5px;
-
-}
-
-.selection:hover {
-    color: white;
-    background-color: #cc2626;
-    border-radius: 5px;
-    z-index: 9999;
-    transition: 0.3s ease-in-out;
-}
-
-.selection:active {
-    text-decoration: underline;
-    background-color: #cc2626;
-}
-
-.TheMenu {
-    margin: 5px;
-    margin-top: 0;
-    background-color: white;
-    grid-column: 1/3;
-    grid-row: 2/4
-}
-
-.menuItem1 {
-    border-top: 2px solid;
-    border-color: lightgray;
-    background-color: white;
-    grid-column: 1 /3;
-    grid-row: 2/3;
-    font-size: 23px;
-    padding: 5px;
-}
-
-.menuItem2 {
-    padding: 5px;
-    border-top: 2px solid;
-    border-color: lightgray;
-    background-color: white;
-    grid-column: 1/3;
-    grid-row: 3/4;
-    font-size: 23px;
-}
-
-.itemName {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.menuItemPrice {
-    text-align: right;
-    font-weight: bold;
-    font-size: 23px;
-    margin-top: -50px;
-
-}
-
-.menuItemDescription {
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: none;
-
-}
-
-/*
-.pic1 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    font-size:.75em;
 }
